@@ -459,7 +459,7 @@ MonoBehaviour:
   controller: {fileID: 263824556}
   speed: 12
   gravity: -19.62
-  jumpHeight: 3
+  jumpHeight: 2
   groundCheck: {fileID: 150047762}
   groundDistance: 0.4
   groundMask:
@@ -942,8 +942,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 58.715508
+  far clip plane: 100
+  field of view: 67.67275
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 263824555}
   smoothSpeed: 5
-  offset: {x: 0, y: 7, z: 0}
+  offset: {x: 0, y: 12, z: -2}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1535,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   detectionRange: 7
-  hearingRange: 10
+  hearingRange: 15
   waypoints:
   - {fileID: 1463414833}
   - {fileID: 461052978}
@@ -2610,7 +2610,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &832575518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2731,17 +2731,17 @@ MonoBehaviour:
   player: {fileID: 263824555}
   health: 100
   maxHealth: 100
-  detectionRange: 7
-  hearingRange: 10
+  detectionRange: 10
+  hearingRange: 15
   waypoints:
   - {fileID: 689373527}
   - {fileID: 1940663003}
-  patrolSpeed: 2
+  patrolSpeed: 5
   waypointDistance: 0.5
-  chaseSpeed: 4
+  chaseSpeed: 10
   investigateSpeed: 3
   investigationDistance: 0.5
-  fleeSpeed: 7
+  fleeSpeed: 10
   attackRange: 1.5
   darkZoneMask:
     serializedVersion: 2
