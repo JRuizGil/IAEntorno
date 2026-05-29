@@ -13,10 +13,10 @@ TagManager:
   - UI
   - Objects
   - Player
-  - 
-  - 
-  - 
-  - 
+  - Unwalkable Mask
+  - Walkable
+  - Obstacle
+  - DarkZone
   - 
   - 
   - 
